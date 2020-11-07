@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            /* button {
+              height: 30px;
+              width: 30px;
+              outline: none;
+            } */
+
+            ul, li {
+                list-style: none;
+            }
+
+            ul {
+                padding: 0;
+                float: left;
+            }
+
+            li {
+                width: 300px;
+                padding: 10px;
+            }
+
+            li span {
+                float: left;
+                width: 270px;
+                font-size: 15px;
+                margin-top: 2px;
+            }
+
+            .action {
+                float: left;
+                width: 30px;
+                text-align: center;
+            }
+
+          </style>
+    </head>
+    <body>
+        <button id="changeColor">Change color</button>
+        <button id="play">play</button>
+        <ul>
+            <li>
+                <span>Title bài hát</span>
+                <div class="action">
+                    <img src="images/icon-popup/pause.png" alt="pause" width="20" id="pause">
+                    <!-- <img src="images/icon-popup/play.png" alt="pause" width="20" id="play"> -->
+                </div>
+            </li>
+        </ul>
+        <footer>footer
+            <audio id="myAudio">
+                <source src="heuse_zeus_x_crona_pill_feat_emma_sameth_ncs_release_295334.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+        </footer>
+        <script src="popup.js"></script>
+    </body>
+</html>
